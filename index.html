@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        form{
+            width: 300px;
+            display: grid;
+            gap: 8px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h2>Validación de teléfono mediante expresiones regulares</h2>
+    </header>
+    <main>
+        <form action="">
+            <label for="phone_number"></label>
+            <input id="phone_number" type="text" placeholder="Enter your phone number (9 digits)" pattern="\d{9}">
+            <button type="submit">Submit</button>
+        </form>
+    </main>
+</body>
+</html>
