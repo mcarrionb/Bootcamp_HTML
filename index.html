@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.2.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h2>Envío de datos mediante un formulario</h2>
+    </header>
+    <main>
+        <div class="container" style="width: 600px;">
+            <form target="_blank" action="https://formsubmit.co/843bf34ce69d3df2bddd0d4dd65b169b " method="POST">
+              <div class="form-group">
+                <div class="form-row">
+                  <div class="col">
+                    <input type="text" name="phone_number" class="form-control" placeholder="Phone number (9 digits)" required>
+                  </div>
+                  <div class="col">
+                    <input type="email" name="email" class="form-control" placeholder="Email Address" required>
+                  </div>
+                </div>
+              </div>
+              <div class="form-group">
+                <textarea placeholder="Your Message" class="form-control" name="message" rows="8" required></textarea>
+              </div>
+              <button type="submit" class="btn btn-lg btn-dark btn-block">Submit</button>
+            </form>
+          </div>
+    </main>
+</body>
+</html>
